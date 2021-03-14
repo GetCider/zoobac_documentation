@@ -89,8 +89,9 @@ ____
 - After the first system boot, click on the button with the mouse image (similar to the "**Start**" button in windows), select "**Settings**", and then "**Session and Startup**". In the "**Application Autostart**" tab, remove all the checkmarks.
 
 - At the next step, click on the button with the mouse, and open the file manager. In the window that opens, create a folder called zoobac and copy the software files into it.
-
-![Image alt](https://github.com/GetCider/zoobac_documentation/raw/master/imgs/installation3.png)
+<p align="center"> 
+<img src="https://github.com/GetCider/zoobac_documentation/raw/master/imgs/installation3.png" />
+ </p>
 
 - Then again click on the button with the mouse image (similar to the button "**Start**" in windows), select "**Settings**", and then "**Session and Startup**". In the "**Application Autostart**" tab we click "**Add**", fill in the first two lines, and in the third we specify the path to the executable file of our program.
 
