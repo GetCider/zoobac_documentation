@@ -8,25 +8,8 @@ There are two options for installing the application:
 2. Computers using UEFI
 
 
-> [!NOTE]
-> Information the user should notice even if skimming.
 
-> [!TIP]
-> Optional information to help a user be more successful.
-
-> [!IMPORTANT]
-> Essential information required for user success.
-
-> [!CAUTION]
-> Negative potential consequences of an action.
-
-> [!WARNING]
-> Dangerous certain consequences of an action.
-
-
-
-![https cat]
-(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.ixbt.com%2Fnews%2F2019%2F06%2F19%2Fv-androidversii-chrome-pojavitsja-rezhim--kartinka-v-kartinke-.html&psig=AOvVaw36ewQ83rTU3P56cjdQuuSV&ust=1615839612034000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNiyoeLNsO8CFQAAAAAdAAAAABAD)
+[Image alt](https://www.ixbt.com/img/n1/news/2019/5/3/chrome-73-mode-sombre-android_large.jpg)
 
 ** This instruction assumes that all actions for preparing a usb flash drive will be performed in the 
 Windows operating system. **
