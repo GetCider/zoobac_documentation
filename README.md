@@ -76,9 +76,10 @@ ____
 5. Select the layout and language and click "**Continue**".
 6. In the next step, fill in the information about the user, the "**name**" field "**computer name**" and set the password.
 
-<span style="color:red; font-size:24px;">**!!!! Make sure to put a check on the item «login automatically» !!!** </span>
+**![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `!!!! Make sure to put a check on the item «login automatically» !!!`**
 
-7. Click "**Continue**".
+ 7.  Click "**Continue**".
+   
 ![Image alt](https://github.com/GetCider/zoobac_documentation/raw/master/imgs/installation2.png)
 
 ____
