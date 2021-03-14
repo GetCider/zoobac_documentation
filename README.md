@@ -4,6 +4,12 @@
 Windows operating system.***
 ____
 
+**instruction in MS Word format:**
+- [Linux Installation Instructions for UEFI COMPUTERS](src/Linux_Installation_Instructions_NEW_COMPUTERS.docx)
+- [Linux Installation Instructions BIOS COMPUTERS](src/Linux_Installation_Instructions_OLD_COMPUTERS.docx)
+
+____
+
 **The whole task is divided into several points, namely:**
 
 1. [Creating a bootable installation USB flash drive](#creating-a-bootable-installation-usb-flash-drive);
@@ -12,8 +18,8 @@ ____
           - [Computers with BIOS](#computers-with-bios)
           - [Computers with UEFI](#computers-with-uefi)
 2. [Installation of the system](#installation-of-the-system);
-3. Setting up the system;
-4. Verification.
+3. [Setting up the system](#setting-up-the-system);
+4. [Verification](#verification).
 
 ## Creating a bootable installation USB flash drive
 
@@ -89,10 +95,11 @@ ____
   <img src="https://github.com/GetCider/zoobac_documentation/raw/master/imgs/installation2.png" />
 </p>
 
+8. Wait for the completion of the installation process. Then remove the installation flash drive and press "**restart now**".
 
 ____
 
-- Wait for the completion of the installation process. Then remove the installation flash drive and press "**restart now**".
+## Setting up the system
 
 - After the first system boot, click on the button with the mouse image (similar to the "**Start**" button in windows), select "**Settings**", and then "**Session and Startup**". In the "**Application Autostart**" tab, remove all the checkmarks.
 
@@ -103,7 +110,11 @@ ____
 
 - Then again click on the button with the mouse image (similar to the button "**Start**" in windows), select "**Settings**", and then "**Session and Startup**". In the "**Application Autostart**" tab we click "**Add**", fill in the first two lines, and in the third we specify the path to the executable file of our program.
 
-- That’s all, after rebooting of this computer, our software will always automatically start.
+____
+
+## Verification
+
+That’s all, after rebooting of this computer, our software will always automatically start.
 
 >If you make certain settings in the BIOS, the computer will automatically turn on when the power is applied to the power plug (useful in case when the electricity was turned off)
 
