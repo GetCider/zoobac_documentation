@@ -9,7 +9,7 @@ There are two options for installing the application:
 
 
 
-[Image alt](https://www.ixbt.com/img/n1/news/2019/5/3/chrome-73-mode-sombre-android_large.jpg)
+[Image alt](https://github.com/GetCider/zoobac_documentation/raw/master/imgs/old_pc_1.jpg)
 
 ** This instruction assumes that all actions for preparing a usb flash drive will be performed in the 
 Windows operating system. **
