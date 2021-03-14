@@ -1,0 +1,92 @@
+This instruction assumes that all actions for preparing a usb flash drive will be performed in the
+
+Windows operating system.
+
+The whole task is divided into several points, namely:
+
+1) Creating a bootable installation USB flash drive;
+
+2) Installation of the system;
+
+3) Setting up the system;
+
+4) Verification.
+
+First, we need an image of the system that we will install. I chose Xubuntu (the system will be 64-bit). Download the image of the distribution:
+
+[http://www.mirrorservice.org/sites/cdimage.ubuntu.com/cdimage/xubuntu/releases/19.04/release/xubuntu-19.04-desktop-amd64.iso](http://mirror.us.leaseweb.net/ubuntu-cdimage/xubuntu/releases/16.04/release/xubuntu-16.04-desktop-amd64.iso)
+
+Then the software to create a bootable USB flash drive:
+
+[https://github.com/unetbootin/unetbootin/releases/download/647/unetbootin-windows-647.exe](https://github.com/unetbootin/unetbootin/releases/download/647/unetbootin-windows-647.exe)
+
+**And the archive files of the Zoobac**
+
+[http://doubledamage.org/Linux.zip](http://doubledamage.org/Linux.zip)
+
+Download rufus from https://rufus.ie/
+
+The &quot;Partition scheme&quot; and &quot;Target system&quot; should be as in the screenshot.
+
+Press START and wait for completion. After that we proceed to install the OS on our working host.
+
+. ![](RackMultipart20210314-4-8bncgl_html_a5a76cef96f2aa4.png)
+
+insert the created bootable USB flash drive into the usb connector and select &quot;boot from USB&quot; in the boot menu of the computer.
+
+When booting from a flash drive, select &quot;Try xubuntu&quot;
+
+We are waiting for the system to boot
+
+An ESP can be created via a recent version of [GParted](https://help.ubuntu.com/community/GParted) (the Gparted version included in the system), and must have the following attributes:
+
+  1. _Mount point:_ /boot/efi (remark: no need to set this mount point when using the manual partitioning, the Ubuntu installer will detect it automatically)
+  2. _Size:_ minimum 100Mib. 200MiB recommended.
+  3. _Type:_ FAT32
+  4. _Other:_ needs a &quot;boot&quot; flag.
+
+Reboot the machine
+
+Waiting for the live system to load and select the language and click &quot;Install Xubuntu&quot;
+
+![](RackMultipart20210314-4-8bncgl_html_e091d829f22aed72.png)
+
+Steps:
+
+1. Choose language, click &quot;Continue&quot;.
+
+2. In the next stеp click &quot;Continue&quot;
+
+3. In the next step, select &quot;Erase disk and install xubuntu&quot; and click &quot;Install now&quot;, in the window that appears, select &quot;Continue&quot;.
+
+4. Then select the timezone and press &quot;Continue&quot;.
+
+5. Select the layout and language and click &quot;Continue&quot;.
+
+6. In the next step, fill in the information about the user, the &quot;name&quot; field &quot;computer name&quot; and set the password.
+
+**!!!! Make sure to put a check on the item «login automatically» !!!**
+
+and click &quot;Continue&quot;.
+
+![](RackMultipart20210314-4-8bncgl_html_4ac4c301b3764355.png)
+
+Wait for the completion of the installation process.Then remove the installation flash drive and press &quot;restart now&quot;.
+
+After the first system boot, click on the button with the mouse image (similar to the &quot;Start&quot; button in windows), select &quot;Settings&quot;, and then &quot;Session and Startup&quot;. In the &quot;Application Autostart&quot; tab, remove all the checkmarks.
+
+At the next step, click on the button with the mouse, and open the file manager. In the window that opens, create a folder called zoobac and copy the software files into it.
+
+![](RackMultipart20210314-4-8bncgl_html_4a0aeab256a5b6c3.png)
+
+![](RackMultipart20210314-4-8bncgl_html_bf4c9da885e3be6.png)
+
+Then again click on the button with the mouse image (similar to the button &quot;Start&quot; in windows), select &quot;Settings&quot;, and then &quot;Session and Startup&quot;. In the &quot;Application Autostart&quot; tab we click &quot;Add&quot;, fill in the first two lines, and in the third we specify the path to the executable file of our program.
+
+That&#39;s all, after rebooting of this computer, our software will always automatically start.
+
+If you make certain settings in the BIOS, the computer will automatically turn on when the power is applied to the power plug (useful in case when the electricity was turned off)
+
+Next, we check the workability by rebooting the computer.
+
+If computer refuses to see the system you will need to go to BIOS settings(F10 or F11 on Lenovo)
