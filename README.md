@@ -44,7 +44,7 @@ ____
 - The “**Partition scheme**” and “**Target system**” should be as in the screenshot.
 - Press **START** and wait for completion. After that we proceed to install the OS on our working host.
 
-[Image alt](https://github.com/GetCider/zoobac_documentation/raw/master/imgs/new_pc_1.jpg)
+![Image alt](https://github.com/GetCider/zoobac_documentation/raw/master/imgs/new_pc_1.jpg)
 
 - Insert the created bootable USB flash drive into the usb connector and select "**boot from USB**" in the boot menu of the computer.
 
@@ -65,7 +65,7 @@ ____
 ## Installation of the system
 
 - Waiting for the live system to load and select the language and click "**Install Xubuntu**"
-  [Image alt](https://github.com/GetCider/zoobac_documentation/raw/master/imgs/installation1.png)
+  ![Image alt](https://github.com/GetCider/zoobac_documentation/raw/master/imgs/installation1.png)
 
 ### Steps of installation: 
 
@@ -79,7 +79,7 @@ ____
 <span style="color:red; font-size:24px;">**!!!! Make sure to put a check on the item «login automatically» !!!** </span>
 
 7. Click "**Continue**".
-[Image alt](https://github.com/GetCider/zoobac_documentation/raw/master/imgs/installation2.png)
+![Image alt](https://github.com/GetCider/zoobac_documentation/raw/master/imgs/installation2.png)
 
 ____
 
@@ -89,7 +89,7 @@ ____
 
 - At the next step, click on the button with the mouse, and open the file manager. In the window that opens, create a folder called zoobac and copy the software files into it.
 
-[Image alt](https://github.com/GetCider/zoobac_documentation/raw/master/imgs/installation3.png)
+![Image alt](https://github.com/GetCider/zoobac_documentation/raw/master/imgs/installation3.png)
 
 - Then again click on the button with the mouse image (similar to the button "**Start**" in windows), select "**Settings**", and then "**Session and Startup**". In the "**Application Autostart**" tab we click "**Add**", fill in the first two lines, and in the third we specify the path to the executable file of our program.
 
