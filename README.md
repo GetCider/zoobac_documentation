@@ -105,10 +105,10 @@ ____
 ## Setting up the system
 
 
-- Unpack the contents of the archive zoobac.zip to /home/zoobac/Directory
+- Unpack the contents of the archive zoobac.zip to **/home/zoobac/Desktop**
   
 <p align="center"> 
-  <img src="https://github.com/GetCider/zoobac_documentation/raw/master/imgs/installation3.png" />
+  <img src="https://github.com/GetCider/zoobac_documentation/raw/master/imgs/installation4.png" />
 </p>
 
 - After the first system boot, click on the button with the mouse image (similar to the "**Start**" button in windows), select "**Settings**", and then "**Session and Startup**". In the "**Application Autostart**" tab, remove all the checkmarks.
