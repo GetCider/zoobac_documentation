@@ -104,7 +104,6 @@ ____
 
 ## Setting up the system
 
-
 - Unpack the contents of the archive zoobac.zip to **/home/zoobac/Desktop**
   
 <p align="center"> 
