@@ -25,10 +25,10 @@ ____
 
 ### *Download sources*
 
-- First, we need an image of the system that we will install. I chose Xubuntu (the system will be 64-bit). Download the [image](https://www.mirrorservice.org/sites/cdimage.ubuntu.com/cdimage/xubuntu/releases/20.04/release/xubuntu-20.04.2-desktop-amd64.iso) of the distribution.
+- We need an image of the system that we will install. We chose Xubuntu (the system will be 64-bit). Download the [image](https://www.mirrorservice.org/sites/cdimage.ubuntu.com/cdimage/xubuntu/releases/20.04/release/xubuntu-20.04.2-desktop-amd64.iso) of the distribution. (**if the image does not work, take a newer version the image**)
 
 - Then [the software](https://github.com/unetbootin/unetbootin/releases/download/647/unetbootin-windows-647.exe) to create a bootable USB flash drive.
-- And [the archive](https://github.com/GetCider/zoobac_documentation/blob/master/src/Linux.zip) files of the Zoobac .
+- And [the archive](https://github.com/GetCider/zoobac_documentation/blob/master/src/zoobac.zip) files of the Zoobac .
 
 
 ### **We take the next step depending on the technology supported by a particular machine.**
@@ -40,6 +40,8 @@ ___
   <img src="https://github.com/GetCider/zoobac_documentation/raw/master/imgs/old_pc_1.jpg" />
 </p>
 
+- **In this window, check that the program correctly identified your USB disk**
+
 - Click **OK** and wait for the process to finish. After that we proceed to install the OS on our working host.
 
 - Insert the created bootable USB flash drive into the usb connector and select "**boot from USB**" in the boot menu of the computer.
@@ -50,6 +52,7 @@ ____
 
 - Download rufus from https://rufus.ie/
 - The “**Partition scheme**” and “**Target system**” should be as in the screenshot.
+- **In this window, check that the program correctly identified your USB disk**
 - Press **START** and wait for completion. After that we proceed to install the OS on our working host.
 
 <p align="center"> 
@@ -101,15 +104,20 @@ ____
 
 ## Setting up the system
 
-- After the first system boot, click on the button with the mouse image (similar to the "**Start**" button in windows), select "**Settings**", and then "**Session and Startup**". In the "**Application Autostart**" tab, remove all the checkmarks.
 
-- At the next step, click on the button with the mouse, and open the file manager. In the window that opens, create a folder called zoobac and copy the software files into it.
+- Unpack the contents of the archive zoobac.zip to /home/zoobac/Directory
+  
 <p align="center"> 
   <img src="https://github.com/GetCider/zoobac_documentation/raw/master/imgs/installation3.png" />
 </p>
 
-- Then again click on the button with the mouse image (similar to the button "**Start**" in windows), select "**Settings**", and then "**Session and Startup**". In the "**Application Autostart**" tab we click "**Add**", fill in the first two lines, and in the third we specify the path to the executable file of our program.
+- After the first system boot, click on the button with the mouse image (similar to the "**Start**" button in windows), select "**Settings**", and then "**Session and Startup**". In the "**Application Autostart**" tab, remove all the checkmarks.
 
+- In the "**Application Autostart**" tab we click "**Add**", fill in the first two lines, and in the '**Command**' line  we specify the path to the executable file of our program. '**/home/zoobac/Desktop/desktop**'
+
+<p align="center"> 
+  <img src="https://github.com/GetCider/zoobac_documentation/raw/master/imgs/installation3.png" />
+</p>
 ____
 
 ## Verification
