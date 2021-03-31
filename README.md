@@ -121,6 +121,7 @@ ____
 <p align="center"> 
   <img src="https://github.com/GetCider/zoobac_documentation/raw/master/imgs/extract3.png" />
 </p>
+<br><br>
 
 - After the first system boot, click on the button with the mouse image (similar to the "**Start**" button in windows), select "**Settings**", and then "**Session and Startup**". In the "**Application Autostart**" tab, remove all the checkmarks.
 
