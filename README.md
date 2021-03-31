@@ -1,6 +1,6 @@
-# ZOOBAC INSTALALTION GUIDE
+# ZOOBAC INSTALATION GUIDE
 
-> ***This instruction assumes that all actions for preparing a usb flash drive will be performed in the
+> ***This instruction assumes that all actions for preparing a USB flash drive will be performed in the
 Windows operating system.***
 ____
 
@@ -12,23 +12,23 @@ ____
 
 **The whole task is divided into several points, namely:**
 
-1. [Creating a bootable installation USB flash drive](#creating-a-bootable-installation-usb-flash-drive);
+1. [STEP 1. Creating a bootable installation USB flash drive](#creating-a-bootable-installation-usb-flash-drive);
       - [Download sources](#download-sources)
       - make install flash drive:
           - [Computers with BIOS](#computers-with-bios)
           - [Computers with UEFI](#computers-with-uefi)
-2. [Installation of the system](#installation-of-the-system);
-3. [Setting up the system](#setting-up-the-system);
-4. [Verification](#verification).
+2. [STEP 2.Installation of the system](#installation-of-the-system);
+3. [STEP 3.Setting up the system](#setting-up-the-system);
+4. [STEP 4.Verification](#verification).
 
-## Creating a bootable installation USB flash drive
+## STEP 1. Creating a bootable installation USB flash drive
 
 ### *Download sources*
 
-- We need an image of the system that we will install. We chose Xubuntu (the system will be 64-bit). Download the [image](https://www.mirrorservice.org/sites/cdimage.ubuntu.com/cdimage/xubuntu/releases/20.04/release/xubuntu-20.04.2-desktop-amd64.iso) of the distribution. (**if the image does not work, take a newer version the image**)
+- We need an image of the system that we will install. We chose Xubuntu (the system will be 64-bit). Download the [image](https://www.mirrorservice.org/sites/cdimage.ubuntu.com/cdimage/xubuntu/releases/20.04/release/xubuntu-20.04.2-desktop-amd64.iso) of the distribution. (**If the image does not work, take a newer version of the image**)
 
 - Then [the software](https://github.com/unetbootin/unetbootin/releases/download/647/unetbootin-windows-647.exe) to create a bootable USB flash drive.
-- And [the archive](https://github.com/GetCider/zoobac_documentation/blob/master/src/zoobac.zip) files of the Zoobac .
+- And [the archive](https://github.com/GetCider/zoobac_documentation/blob/master/src/zoobac.zip) files of the Zoobac.
 
 
 ### **We take the next step depending on the technology supported by a particular machine.**
@@ -42,39 +42,39 @@ ___
 
 - **In this window, check that the program correctly identified your USB disk**
 
-- Click **OK** and wait for the process to finish. After that we proceed to install the OS on our working host.
+- Click **OK** and wait for the process to finish. After that, we proceed to install the OS on our working host.
 
-- Insert the created bootable USB flash drive into the usb connector and select "**boot from USB**" in the boot menu of the computer.
+- Insert the created bootable USB flash drive into the USB connector and select "**boot from USB**" in the boot menu of the computer.
 
 ____
 
 #### **Computers with UEFI:**
 
-- Download rufus from https://rufus.ie/
+- Download Rufus from https://rufus.ie/
 - The “**Partition scheme**” and “**Target system**” should be as in the screenshot.
 - **In this window, check that the program correctly identified your USB disk**
-- Press **START** and wait for completion. After that we proceed to install the OS on our working host.
+- Press **START** and wait for completion. After that, we proceed to install the OS on our working host.
 
 <p align="center"> 
   <img src="https://github.com/GetCider/zoobac_documentation/raw/master/imgs/new_pc_1.jpg" />
 </p>
 - Insert the created bootable USB flash drive into the usb connector and select "**boot from USB**" in the boot menu of the computer.
 
-- When booting from a flash drive, select “**Try xubuntu**” and waiting for the system to boot
+- When booting from a flash drive, select “**Try Xubuntu**” and waiting for the system to boot
   
 
-- An ESP can be created via a recent version of GParted (the Gparted version included in the system), and must have the following attributes:
+- An ESP can be created via a recent version of GParted (the Gparted version included in the system), and must have the following attributes:
   
-       1. Mount point: /boot/efi (remark: no need to set this mount point when using the manual partitioning, the Ubuntu installer will detect it automatically)
-       2. Size: minimum 100Mib. 200MiB recommended.
-       3. Type: FAT32
-       4. Other: needs a "boot" flag.
+       1. Mount point: /boot/EFI (remark: no need to set this mount point when using the manual partitioning, the Ubuntu installer will detect it automatically)
+       2. Size: minimum 100Mib. 200MiB recommended.
+       3. Type: FAT32
+       4. Other: needs a "boot" flag.
 
 - Reboot the machine.
 
 ____
 
-## Installation of the system
+## STEP 2. Installation of the system
 
 - Waiting for the live system to load and select the language and click "**Install Xubuntu**"
   
@@ -102,7 +102,7 @@ ____
 
 ____
 
-## Setting up the system
+## STEP 3. Setting up the system
 
 - Unpack the contents of the archive zoobac.zip to **/home/zoobac/Desktop**
   
@@ -112,19 +112,21 @@ ____
 
 - After the first system boot, click on the button with the mouse image (similar to the "**Start**" button in windows), select "**Settings**", and then "**Session and Startup**". In the "**Application Autostart**" tab, remove all the checkmarks.
 
-- In the "**Application Autostart**" tab we click "**Add**", fill in the first two lines, and in the '**Command**' line  we specify the path to the executable file of our program. '**/home/zoobac/Desktop/desktop**'
+- In the "**Application Autostart**" tab we click "**Add**", fill in the first two lines, and in the '**Command**' line we specify the path to the executable file of our program. '**/home/zoobac/Desktop/desktop**'
 
 <p align="center"> 
   <img src="https://github.com/GetCider/zoobac_documentation/raw/master/imgs/installation3.png" />
 </p>
 ____
 
-## Verification
+## STEP 4. Verification
 
-That’s all, after rebooting of this computer, our software will always automatically start.
+**Prior to restarting the computer, p`lease disable WIFI in the computer settings.**
+
+That’s all, after rebooting this computer, our software will always automatically start.
 
 >If you make certain settings in the BIOS, the computer will automatically turn on when the power is applied to the power plug (useful in case when the electricity was turned off)
 
 Now, we check the workability by rebooting the computer.
 
-If computer refuses to see the system you will need to go to BIOS settings(F10 or F11 on Lenovo)
+If the computer refuses to see the system you will need to go to BIOS settings(F10 or F11 on Lenovo)
