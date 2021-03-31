@@ -104,10 +104,22 @@ ____
 
 ## STEP 3. Setting up the system
 
-- Unpack the contents of the archive zoobac.zip to **/home/zoobac/Desktop**
-  
+- Unpack the contents of the archive zoobac.zip to **/home/zoobac/Desktop**:
+
+- - Double click on the zoobak.zip file
 <p align="center"> 
-  <img src="https://github.com/GetCider/zoobac_documentation/raw/master/imgs/installation4.png" />
+  <img src="https://github.com/GetCider/zoobac_documentation/raw/master/imgs/extract1.png" />
+</p>
+
+- - In the window that opens, click on "Extract"
+<p align="center"> 
+  <img src="https://github.com/GetCider/zoobac_documentation/raw/master/imgs/extract1.png" />
+</p>
+
+- - Specify the path for the unpacked files "/ home / zoobac / Desktop" and click "Extract"
+
+<p align="center"> 
+  <img src="https://github.com/GetCider/zoobac_documentation/raw/master/imgs/extract3.png" />
 </p>
 
 - After the first system boot, click on the button with the mouse image (similar to the "**Start**" button in windows), select "**Settings**", and then "**Session and Startup**". In the "**Application Autostart**" tab, remove all the checkmarks.
@@ -128,5 +140,3 @@ That’s all, after rebooting this computer, our software will always automatica
 >If you make certain settings in the BIOS, the computer will automatically turn on when the power is applied to the power plug (useful in case when the electricity was turned off)
 
 Now, we check the workability by rebooting the computer.
-
-If the computer refuses to see the system you will need to go to BIOS settings(F10 or F11 on Lenovo)
