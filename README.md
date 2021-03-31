@@ -113,7 +113,7 @@ ____
 
 - - In the window that opens, click on "Extract"
 <p align="center"> 
-  <img src="https://github.com/GetCider/zoobac_documentation/raw/master/imgs/extract1.png" />
+  <img src="https://github.com/GetCider/zoobac_documentation/raw/master/imgs/extract2.png" />
 </p>
 
 - - Specify the path for the unpacked files "/ home / zoobac / Desktop" and click "Extract"
