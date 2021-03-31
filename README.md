@@ -1,4 +1,4 @@
-# ZOOBAC INSTALATION GUIDE
+# ZOOBAC INSTALLATION GUIDE
 
 > ***This instruction assumes that all actions for preparing a USB flash drive will be performed in the
 Windows operating system.***
@@ -121,7 +121,7 @@ ____
 
 ## STEP 4. Verification
 
-**Prior to restarting the computer, p`lease disable WIFI in the computer settings.**
+**Prior to restarting the computer, please disable WIFI in the computer settings.**
 
 That’s all, after rebooting this computer, our software will always automatically start.
 
