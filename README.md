@@ -25,7 +25,7 @@ ____
 
 ### *Download sources*
 
-- We need an image of the system that we will install. We chose Xubuntu (the system will be 64-bit). Download the [image](https://www.mirrorservice.org/sites/cdimage.ubuntu.com/cdimage/xubuntu/releases/20.04/release/xubuntu-20.04.2-desktop-amd64.iso) of the distribution. (**If the image does not work, take a newer version of the image**)
+- We need an image of the system that we will install. We chose Xubuntu (the system will be 64-bit). Download the [image](http://mirror.us.leaseweb.net/ubuntu-cdimage/xubuntu/releases/20.04/release/xubuntu-20.04.2.0-desktop-amd64.iso) of the distribution. (**If the image does not work, take a newer version of the image**)
 
 - Then [the software](https://github.com/unetbootin/unetbootin/releases/download/647/unetbootin-windows-647.exe) to create a bootable USB flash drive.
 - And [the archive](https://github.com/GetCider/zoobac_documentation/blob/master/src/zoobac.zip) files of the Zoobac.
