@@ -1,0 +1,91 @@
+This instruction assumes that all actions for preparing a usb flash drive will be performed in the
+
+Windows operating system.
+
+The whole task is divided into several points, namely:
+
+Creating a bootable installation USB flash drive;
+
+Installation of the system;
+
+Setting up the system;
+
+Verification.
+
+First, we need an image of the system that we will install. I chose Xubuntu (the system will be 64-bit). Download the image of the distribution:
+
+http://www.mirrorservice.org/sites/cdimage.ubuntu.com/cdimage/xubuntu/releases/19.04/release/xubuntu-19.04-desktop-amd64.iso
+
+Then the software to create a bootable USB flash drive:
+
+https://github.com/unetbootin/unetbootin/releases/download/647/unetbootin-windows-647.exe
+
+And the archive files of the Zoobac
+
+http://doubledamage.org/Linux.zip
+
+Download rufus from https://rufus.ie/
+
+The "Partition scheme" and "Target system" should be as in the screenshot.
+
+Press START and wait for completion. After that we proceed to install the OS on our working host.
+
+. 
+
+insert the created bootable USB flash drive into the usb connector and select "boot from USB" in the boot menu of the computer.
+
+When booting from a flash drive, select "Try xubuntu"
+
+We are waiting for the system to boot
+
+An ESP can be created via a recent version of GParted (the Gparted version included in the system), and must have the following attributes:
+
+Mount point: /boot/efi (remark: no need to set this mount point when using the manual partitioning, the Ubuntu installer will detect it automatically)
+Size: minimum 100Mib. 200MiB recommended.
+Type: FAT32
+Other: needs a "boot" flag.
+Reboot the machine
+
+Waiting for the live system to load and select the language and click "Install Xubuntu"
+
+
+
+Steps:
+
+Choose language, click "Continue".
+
+In the next stеp click "Continue"
+
+In the next step, select "Erase disk and install xubuntu" and click "Install now", in the window that appears, select "Continue".
+
+Then select the timezone and press "Continue".
+
+Select the layout and language and click "Continue".
+
+In the next step, fill in the information about the user, the "name" field "computer name" and set the password.
+
+!!!! Make sure to put a check on the item «login automatically» !!!
+
+and click "Continue".
+
+
+
+Wait for the completion of the installation process.Then remove the installation flash drive and press "restart now".
+
+After the first system boot, click on the button with the mouse image (similar to the "Start" button in windows), select "Settings", and then "Session and Startup". In the "Application Autostart" tab, remove all the checkmarks.
+
+At the next step, click on the button with the mouse, and open the file manager. In the window that opens, create a folder called zoobac and copy the software files into it.
+
+
+
+
+
+Then again click on the button with the mouse image (similar to the button "Start" in windows), select "Settings", and then "Session and Startup". In the "Application Autostart" tab we click "Add", fill in the first two lines, and in the third we specify the path to the executable file of our program.
+
+That's all, after rebooting of this computer, our software will always automatically start.
+
+If you make certain settings in the BIOS, the computer will automatically turn on when the power is applied to the power plug (useful in case when the electricity was turned off)
+
+Next, we check the workability by rebooting the computer.
+
+If computer refuses to see the system you will need to go to BIOS settings(F10 or F11 on Lenovo)
